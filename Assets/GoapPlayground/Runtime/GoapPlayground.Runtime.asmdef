@@ -1,0 +1,6 @@
+{
+  "name": "GoapPlayground.Runtime",
+  "rootNamespace": "GoapPlayground",
+  "references": [],
+  "autoReferenced": true
+}

@@ -1,0 +1,94 @@
+{
+    "unityVersion": "6000.6.0f1",
+    "timestampUtc": "2026-09-20T23:07:27.1595631Z",
+    "scene": "Assets/GoapPlayground/Scenes/Playground.unity",
+    "passed": 17,
+    "failed": 0,
+    "checks": [
+        {
+            "name": "Exactly eight documented positive-cost actions",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Nearby bed optimal combined plan costs eight",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Distant bed loses to local rest",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Equal-cost bed and floor alternatives are valid",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Carried food satisfies hunger without a source",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Satisfied goal is successful with an empty plan",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Absent food makes hunger explicitly unreachable",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Missing food does not prevent satisfying rest",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Obstacle detour is included in optimal cost",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Fully separated food produces no plan",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Moved food rejects stale pickup and replans",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Unavailable bed rejects stale sleep and replans",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Pickup and consumption preserve resource accounting",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Movement enforces boundaries and obstacles",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Planner and transition evaluation do not mutate inputs",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Repeated planning produces the same trace and plan",
+            "passed": true,
+            "error": ""
+        },
+        {
+            "name": "Rest actions reject unnecessary state changes",
+            "passed": true,
+            "error": ""
+        }
+    ]
+}

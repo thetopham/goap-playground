@@ -1,0 +1,7 @@
+{
+  "name": "GoapPlayground.Editor",
+  "rootNamespace": "GoapPlayground.Editor",
+  "references": ["GoapPlayground.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

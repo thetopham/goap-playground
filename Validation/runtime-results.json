@@ -1,0 +1,99 @@
+{
+    "success": true,
+    "unityVersion": "6000.6.0f1",
+    "error": "",
+    "screenshot": "",
+    "checkCount": 18,
+    "checks": [
+        {
+            "name": "Scene creates the demo",
+            "passed": true,
+            "detail": "GoapDemo component exists after scene startup."
+        },
+        {
+            "name": "Scene creates interactive objects",
+            "passed": true,
+            "detail": "Food and bed transforms are available."
+        },
+        {
+            "name": "Startup produces a plan",
+            "passed": true,
+            "detail": "The initial world has an executable plan."
+        },
+        {
+            "name": "Step executes the first planned action",
+            "passed": true,
+            "detail": "The default plan begins by moving toward the bed."
+        },
+        {
+            "name": "Moving food preserves agent position",
+            "passed": true,
+            "detail": "A world edit does not teleport or reset the agent."
+        },
+        {
+            "name": "Moving food replans",
+            "passed": true,
+            "detail": "The changed food location produces a fresh plan."
+        },
+        {
+            "name": "An unavailable bed still allows completion",
+            "passed": true,
+            "detail": "The agent eats and rests without an available bed."
+        },
+        {
+            "name": "Missing food makes hunger unreachable",
+            "passed": true,
+            "detail": "The controller exposes failure instead of executing a stale plan."
+        },
+        {
+            "name": "Renewing needs after reset is plannable",
+            "passed": true,
+            "detail": "Both needs are active and the reset food source supports a plan."
+        },
+        {
+            "name": "Renewed plan completes",
+            "passed": true,
+            "detail": "The renewed request can be executed to its goal."
+        },
+        {
+            "name": "Run starts execution",
+            "passed": true,
+            "detail": "The run control enables automatic execution."
+        },
+        {
+            "name": "Run executes a timed action",
+            "passed": true,
+            "detail": "Update executes an action after the pacing interval."
+        },
+        {
+            "name": "Pause prevents later ticks",
+            "passed": true,
+            "detail": "The state stays fixed after another pacing interval."
+        },
+        {
+            "name": "Disabling pauses execution",
+            "passed": true,
+            "detail": "OnDisable stops automatic execution."
+        },
+        {
+            "name": "Re-enabling stays paused",
+            "passed": true,
+            "detail": "Enabling the component does not resume unexpectedly."
+        },
+        {
+            "name": "Reset stops execution",
+            "passed": true,
+            "detail": "Reset restores the initial agent state and leaves execution paused."
+        },
+        {
+            "name": "Reset cancels pending execution",
+            "passed": true,
+            "detail": "No old action commits after the reset."
+        },
+        {
+            "name": "Direct transform edits trigger replanning",
+            "passed": true,
+            "detail": "Update observes a moved food object and rebuilds the plan."
+        }
+    ]
+}

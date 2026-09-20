@@ -1,0 +1,14 @@
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+/Builds/
+/.vs/
+/.idea/
+/MemoryCaptures/
+/Recordings/
+/Validation/*.log
+/Validation/*.png
+*.csproj
+*.sln
